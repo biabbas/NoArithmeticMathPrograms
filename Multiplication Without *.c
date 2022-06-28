@@ -17,7 +17,6 @@ int Add(int a, int b){
     a = a & (~(1<<i));// Reset ith bit of a to 0
     c =(c&(x^y) | x&y);
   }
-  printf("RES: %d\n",a);
   return a;
 }
 int Mul(int a,int b){
